@@ -1,0 +1,17 @@
+{
+  "name": "jit",
+  "version": "1.0.0",
+  "description": "just in time",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss build/input.css -o dist/output.css --watch"
+  },
+  "author": "Lawal Rashidi",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.1.0",
+    "tailwindcss": "^3.0.24"
+  }
+}

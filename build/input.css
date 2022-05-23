@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+   @apply text-center sm:text-left md:text-right lg:text-center 
+}
+
+.buttona {
+    @apply text-indigo sm:text-indigo-dark;
+}
+
+
+.content{
+    @apply text-center 3xl:text-left
+}
+
+.new-btn {
+    @apply hover:scale-1 sm:rotate-1;
+    
+}
+
+
+.supra {
+    @apply hover:baton sm:baton-blue;
+}
+
